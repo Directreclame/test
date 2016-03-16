@@ -1,0 +1,112 @@
+.clearfix {
+    clear: both;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f3f3f3;
+    text-transform: lowercase;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 1em 0;
+    border-bottom: 0.5px solid #f0f0f0;
+}
+
+main {
+    background-color: #ffffff;
+}
+
+main h1 {
+    color: #32bcde;
+    font-size: 1.4em;
+    padding: 0.5em;
+}
+
+main li {
+    text-align: center;
+}
+
+main li h2 {
+    font-size: 1.2em;
+    margin: 0 2em;
+}
+
+main li img {
+    
+}
+
+main li p {
+    margin: 0 2em;
+}
+
+main li button {
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+
+
+
+
+footer {
+    background-color: #ffffff;
+    padding: 1em 0;
+    border-top: 0.5px solid #f0f0f0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.8em;
+    opacity: 0.4;
+}
+
+footer p a:link,
+footer p a:visited,
+footer p a:hover,
+footer p a:active {
+    color: black;
+}
+
+a.logo:link,
+a.logo:visited,
+a.logo:hover,
+a.logo:active {
+    margin-left: 1em;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+    width: 250px;
+    height: 41px;
+    
+}
+
+a.menu-button:link,
+a.menu-button:visited,
+a.menu-button:hover,
+a.menu-button:active {
+    float: right;
+    margin-right: 1em;
+    margin-top: 0.6em;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #32bcde;
+}
+
+nav.menu ul li a:link,
+nav.menu ul li a:visited,
+nav.menu ul li a:active {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    margin: 0.5em 0;
+    padding: 0.25em 0;
+    color: red;
+}
+
+nav.menu ul li a:hover {
+    
+}
